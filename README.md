@@ -52,7 +52,6 @@ The Smart Bathroom Monitoring System is an embedded project developed using the 
 | `bathroom/heartbeat` | Periodic system status |
 | `bathroom/debug` | Debug and fault-tolerance test messages |
 
----
 
 ## Fault Tolerance Mechanisms
 This project implements multiple fault-tolerance strategies to ensure continuous operation:
@@ -61,7 +60,6 @@ This project implements multiple fault-tolerance strategies to ensure continuous
 - **Network Reconnection Logic:** Detects Wi-Fi or MQTT disconnections and retries automatically.
 - **Debug Monitoring:** Real-time serial and MQTT debug messages track system state and recovery events.
 
----
 
 ## Testing and Debugging
 Extensive testing was performed to validate normal operation and fault-tolerance behavior:
